@@ -23,7 +23,7 @@ Scanner scanner = new Scanner(System.in);
 - `nextBoolean()`: Lee un valor `true` o `false`.
 
 Ejemplo de cómo leer un nombre y una edad:
-```java
+Cjava
 System.out.print("Ingresa tu nombre: ");
 String nombre = scanner.nextLine();
 

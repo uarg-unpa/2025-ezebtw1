@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class scannerprueba{
+    public static void main(String)
+    Scanner scanner=new Scanner(System.in);
+
+    System.out.print(s:"ingrese un numero" );
+    Inr NUM = scanner.nextInt();
+
+      System.out.println(NUM);
+    scanner.close();
+}
