@@ -37,7 +37,7 @@ public boolean esReciente(){
     return resultado;
 }
 //Constructor
-public LIbro(String titulo, String autor){
+public Libro(String titulo, String autor){
     this.titulo=titulo;
     this.autor=autor;
 }
