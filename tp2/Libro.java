@@ -1,5 +1,4 @@
 public class Libro{
-//Atrubutos
   private String titulo;
   private String autor;
   private int anioPublicacion;
