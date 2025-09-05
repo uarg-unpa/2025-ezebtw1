@@ -4,7 +4,7 @@ public class Libro{
   private int anioPublicacion;
   private int cantidadPaginas; 
 }
-//Constructores
+ //Constructores
  public Libro(String titulo, String autor, int anioPublicacion, int cantidadPaginas){
 
     this.titulo=titulo;
@@ -25,18 +25,8 @@ public boolean esReciente(){
     else
          return false;
 }
-public boolean esReciente(){
-    boolean resultado;
-    if (this.anioPublicacion>2010){
-        resultado = true;
-    }
-    else{
-        resultado = false;
-    }
-    return resultado;
-}
-//Constructor
-public Libro(String titulo, String autor){
+ //Constructor
+ public Libro(String titulo, String autor){
     this.titulo=titulo;
     this.autor=autor;
 }
