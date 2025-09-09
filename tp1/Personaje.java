@@ -1,4 +1,4 @@
-public package tp1;
+package tp1;
 
 public class Personaje {
     private String nombre;
@@ -60,6 +60,5 @@ public class Personaje {
     public String toString(){
         return "Personaje:" +nombre+ ", Nivel de Energia:" +niveldenergia+ ", Puntos de Vida:" +ptsdevida+ ", Arma:" +arma;
     }
-} Personaje {
-    
-}
+
+} 
