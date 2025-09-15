@@ -6,7 +6,7 @@ public class PuntoB{
     private int paginas;
     private int publicacion;
 
-    public void setAutor(String Autor){
+    public void setAutor(String autor){
         this.autor = autor;
     }
     public String getAutor(){
