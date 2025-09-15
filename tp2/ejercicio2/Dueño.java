@@ -9,7 +9,7 @@ public class Dueño {
         if(!nombre.trim().isEmpty() && nombre != null) {
             this.nombre = nombre;
         }
-        if(edad < 0) {
+        if(edad > 0) {
             this.edad = edad;
         }
         if (numeroTelefono != 0) {

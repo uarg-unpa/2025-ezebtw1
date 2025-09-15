@@ -33,7 +33,7 @@ public class Mascota {
     public Dueño getDueño(){
         return dueño;
     }
-
+    
     public boolean dueñoMayor(){
         if(dueño.getEdad()>17) { //return dueño.getEdad()>17;
             return true;

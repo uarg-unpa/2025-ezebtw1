@@ -14,10 +14,9 @@ public class Personaje {
     }
     
         public Personaje(String nombre, String arma){
-            this.nombre=nombre;
-            this.arma=arma;
+            this.nombre = nombre;
+            this.arma = arma;
         }
-    
     
     public void setNombre(String nombre){
         this.nombre = nombre;
