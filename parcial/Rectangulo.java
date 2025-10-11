@@ -1,8 +1,11 @@
+package parcial;
+
 public class Rectangulo{
     private double base;
     private double altura;
 
     public Rectangulo(double base, double altura){
+        
         this.base = base;
         this.altura = altura;
     }
@@ -31,12 +34,6 @@ public class Rectangulo{
 
     public void esMayorElArea(double otroRectangulo){
         otroRectangulo = base * altura;
-        if(base > otroRectangulo && altura > otroRectangulo){
-        System.out.println("El area del rectangulo es mayor ");
-        }
-        else{
-            System.out.println("El area del rectangulo es menor");
-        }
     }
     
 }

@@ -46,7 +46,8 @@ public class Guerrero {
     }
 
     public void setDano(int dano) {
-        this.dano = dano; }
+        this.dano = dano; 
+    }
     public int getDano() { return dano; 
     }
 
