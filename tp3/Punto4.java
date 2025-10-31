@@ -12,7 +12,7 @@ public class Punto4 {
             System.out.println("1. Agregar un elemento. (Maximo 5)");
             System.out.println("2. Eliminar un elemento");
             System.out.println("O. Salir");
-            System.out.println(Opción: );
+            System.out.println("Opción: ");
 
             opcion=scanner.nextInt();
 
@@ -21,10 +21,13 @@ public class Punto4 {
                 if(elem.estaLlena()){
                     System.out.println("Error. La pila está llena.");
                 }else{
-                    elem.meter(elemento);
-                    System.out.println("El elemento"  + elemento + " ha sido ingresado");
+                    elem.meter(opcion);
+                    System.out.println("El elemento"  + elem.elementoCima() + " ha sido ingresado.");
                 }
+                break;
+                
             }
-        }
+        }while(opcion!=0);
+        scanner.close();
     }
 }

@@ -1,4 +1,4 @@
-package tp2;
+package tp3;
 
 import java.util.Scanner;
 
@@ -12,7 +12,8 @@ public class MenuPila {
             System.out.println("\n=== MENÚ DE PILA ===");
             System.out.println("1. Meter elemento");
             System.out.println("2. Sacar elemento");
-            System.out.println("4. Verificar estado (vacía/llena)");
+            System.out.println("3. Verificar estado (vacía/llena)");
+            System.out.println("4. Calcular cantidad de ocurrencias");
             System.out.println("0. Salir");
             System.out.print("Opción: ");
             opcion = sc.nextInt();
@@ -38,9 +39,11 @@ public class MenuPila {
                     }
                     break;
 
-                         case 4: // Verificar estado
+                         case 3: // Verificar estado
                     System.out.println("¿Vacía? " + pila.estaVacia() + " | ¿Llena? " + pila.estaLlena());
                     break;
+
+                case 4: //calcular ocurrencias
 
                 case 0: // Salir
                     System.out.println("Saliendo...");

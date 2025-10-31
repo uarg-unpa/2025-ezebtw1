@@ -45,5 +45,6 @@ public class Punto3 {
             System.out.println(stack.pop());
         }
 
+        caracteres.close();
     }
 }
