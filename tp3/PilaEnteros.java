@@ -33,7 +33,7 @@ public class PilaEnteros {
     public int sacar() {
         int aux = elementos[cima];
         cima--;
-        return aux;   // guarda el elemento de la cima, decrementa cima y lo devuelve
+        return aux;   // guarda el elemento de la cima, decrementa la cima y lo devuelve
         }
 
     public int cantOcurrencias(int buscado){ // calcula la cantidad de ocurrencias

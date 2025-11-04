@@ -1,7 +1,5 @@
 package tp3;
 
-import javax.swing.event.SwingPropertyChangeSupport;
-
 //TP4 Ejercicio Pila pares
 
 //Se tiene una pila de enteros positivos. Con las operaciones básicas de pilas y colas, escribir un
