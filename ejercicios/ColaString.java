@@ -1,6 +1,9 @@
 package ejercicios;
-//codificar cola tipo string, implementar metodo que muestre los elementos, obtenga y muestre la dimension de cada uno. no se debe perder informacion
-
+/*codificar cola tipo string, 
+implementar metodo que muestre los elementos, 
+obtenga y muestre la dimension de cada uno.
+No se debe perder informacion
+*/
 public class ColaString {
     private String elementos[];
     private int frente;

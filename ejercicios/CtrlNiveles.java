@@ -7,6 +7,7 @@ package ejercicios;
 */
 
 public class CtrlNiveles {
+	
 	private int [] niveles;
 	private int cima, tope = 5;
 	
@@ -34,7 +35,7 @@ public class CtrlNiveles {
 		return niveles[cima];
 	}
 
-	public int cantidadOcurrencias(int buscado){
+	public int contNiveles(int buscado){  		//cuenta y devuelve las veces que se repite un nivel
 		CtrlNiveles aux = new CtrlNiveles();
 		int cont = 0;
 		while(!estaVacia()){
@@ -50,6 +51,5 @@ public class CtrlNiveles {
 	return cont;
 	}
 
-	
 }
 

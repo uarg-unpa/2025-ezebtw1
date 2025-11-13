@@ -1,8 +1,10 @@
 package ejercicios;
 
+//cola frente fijo y final movible
+
 public class ColaCaracteres {
 
-    private final int maxcola=10;
+    private final int maxcola = 10;
     private int frente, ultimo;
     private char elementos[];
 
@@ -25,7 +27,7 @@ public class ColaCaracteres {
         ultimo++;
     }
 
-    public char borrar(){    //elimina el caracter más antiguo
+    public char borrar(){    //elimina el caracter más al frente
         char caracter = elementos[frente];
         for(int i=0; i < maxcola; i++){
         elementos[i] = elementos[i++];
