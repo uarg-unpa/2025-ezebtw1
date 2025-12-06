@@ -1,4 +1,4 @@
-package tp3;
+package parcial;
 
 public class PilaEnteros {
     private int[] elementos; // Array para almacenar los elementos

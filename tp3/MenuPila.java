@@ -2,6 +2,8 @@ package tp3;
 
 import java.util.Scanner;
 
+import parcial.PilaEnteros;
+
 public class MenuPila {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

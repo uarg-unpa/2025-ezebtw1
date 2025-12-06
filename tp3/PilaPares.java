@@ -8,8 +8,28 @@ package tp3;
 
 public class PilaPares {
     public static void main(String[]args){
-        PilaEnteros pila = new PilaEnteros();
-         System.out.println("mondongo");
+        Pila p = new Pila();
+        ColaInt c = new ColaInt();
+        int elementoPar;
+        p.meter(1);
+        p.meter(2);
+        p.meter(4);
+        
+
+        if(p.estaVacia()){
+            System.out.println("La pila o la cola están vacías");
+        }else{
+            if(p.elementoCima() % 2 == 0){
+                elementoPar = p.elementoCima();
+                p.sacar(0);
+                if(!c.estaLlena()){
+                    c.insertar(elementoPar);
+                }
+            }
+        }
+
+        System.out.println(c.mostrar());
+        System.out.println("mondongo");
     }
    
 }
